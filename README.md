@@ -3,18 +3,18 @@
 
 Required Commands to ruun on terminal before running the files
 
-# for Debian
-  sudo apt update
-  sudo apt install libzbar0
+## for Debian
+  1.sudo apt update
+  2.sudo apt install libzbar0
 
-# For Mac
+## For Mac
   brew install zbar
   
-# After that RUN
+## After that RUN
   pip install opencv-python pyzbar
 
-# verification
+## verification
   python3 -c "from pyzbar.pyzbar import decode; print('ZBar installed successfully')"
 
-# for Gifs, Run
+## for Gifs, Run
   pip install pillow
