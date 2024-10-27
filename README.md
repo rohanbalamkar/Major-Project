@@ -4,8 +4,8 @@
 Required Commands to ruun on terminal before running the files
 
 ## for Debian
-  1.sudo apt update
-  2.sudo apt install libzbar0
+  +sudo apt update
+  +sudo apt install libzbar0
 
 ## For Mac
   brew install zbar
